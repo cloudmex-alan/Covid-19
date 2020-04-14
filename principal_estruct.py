@@ -255,9 +255,11 @@ date_csv= "09_04_2020"
 #maximal day to show in graphic from the minimal cases detected
 number_of_days_to_compare = 21
 #print(covid19cases_by_country("Mexico"))
+#graph_cases_by_country(countries[0],from_minimal_cases)
+#graph_bar_cases_by_country("Spain","Italy", "China","United_States_of_America","Mexico",100)
+
 #graph_deaths_by_country(countries[0],from_minimal_cases)
 graph_bar_deaths_by_country("Spain","Italy", "China","United_States_of_America","Mexico",100)
-#graph_bar_cases_by_country("Spain","Italy", "China","United_States_of_America","Mexico",100)
 exit()
 for contry in countries:
     graph(country,from_minimal_cases,date_csv,number_of_days_to_compare)
